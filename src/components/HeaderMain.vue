@@ -65,49 +65,59 @@ const links = routeLinks
       <div class="col-span-2 md:col-span-1">
         <div class="relative">
           <svg
-            class="text-[#d1edf5] w-72 h-72 absolute right-0 -top-0"
-            fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            class="absolute right-0 -top-2 w-72"
+            viewBox="0 0 220.421 182.389"
           >
-            <g clip-path="url(#a)">
-              <mask
-                id="b"
-                style="mask-type: luminance"
-                maskUnits="userSpaceOnUse"
-                x="0"
-                y="0"
-                class="w-72 h-72"
-              >
+            <g id="shape" transform="translate(1.482)">
+              <path
+                id="Vector_23"
+                data-name="Vector 23"
+                d="M9.886,68.408C21.5,82.76,53.365,86.959,53.365,86.959s7.9,38.853,26.667,51.6c22.1,15.008,68.408,0,68.408,0s4.587,28.6,17.972,38.262c16.153,11.662,51.016,0,51.016,0V0H.03V24.928S-1.065,54.873,9.886,68.408Z"
+                fill="#d1edf5"
+              />
+              <g id="line" transform="translate(0.031 25.508)">
                 <path
-                  d="M413.476.43.951 150.577l232.573 638.991 412.525-150.147L413.476.431Z"
-                  fill="#fff"
-                />
-              </mask>
-              <g mask="url(#b)">
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M211.628 364.417c8.191 56.073 26.172 110.313 63.46 134.401 44.365 28.66 117.298 22.591 166.974 13.641l.442.449s-4.199 138.402 58.828 161.627c53.317 19.648 136.725-49.764 136.725-49.764L501.332 127.993l-437.422-.331 1.074 1.738-1.386-1.407c.167-.181.27-.288.302-.321l-.46.161.158.16c-5.121 5.536-70.523 80.021 9.212 192.238 82.906 116.681 138.888 46.821 138.888 46.821l-1.341-2.172 1.271-.463ZM66.056 131.137l-1.072-1.737 1.541 1.567-.47.17Z"
-                  fill="#fff"
-                />
-                <path
-                  d="M70.5 123.5c-32.5 26-57.213 99.5-3.857 190 25.705 43.599 61.087 68.571 90.857 71.5 32.024 3.151 57.554-17.5 57.554-17.5s12.76 107.637 69.536 139c51.959 28.703 156.41 8 156.41 8s3.359 128.172 57 160.5c28.978 17.465 81-10 81-10"
+                  id="Vector_20"
+                  data-name="Vector 20"
+                  d="M.008,0s-.69,28.5,10.446,41.756C21.881,55.364,51.47,60.907,51.47,60.907"
+                  fill="none"
                   stroke="#000"
-                  stroke-width="10"
+                  stroke-linecap="round"
+                  stroke-width="3"
+                  stroke-dasharray="0 0"
+                />
+                <path
+                  id="Vector_21"
+                  data-name="Vector 21"
+                  d="M0,0S8.549,53.607,34.314,69.485c28.305,17.444,84.926-6,84.926-6"
+                  transform="translate(48.047 43.75)"
+                  fill="none"
+                  stroke="#000"
+                  stroke-linecap="round"
+                  stroke-width="3"
+                  stroke-dasharray="0 0"
+                />
+                <path
+                  id="Vector_22"
+                  data-name="Vector 22"
+                  d="M0,0S3.669,24.677,14.583,34.314C30.422,48.3,68.627,36.887,68.627,36.887"
+                  transform="translate(148.414 114.093)"
+                  fill="none"
+                  stroke="#000"
+                  stroke-linecap="round"
+                  stroke-width="3"
+                  stroke-dasharray="0 0"
                 />
               </g>
             </g>
-            <path
-              d="M74 127c-1.105 0 1.5 29.988-9 22l-9 132.933c0 1.112.895 2.012 2 2.012h435V625l145-.223V129.012a2.006 2.006 0 0 0-2-2.012H74Z"
-              fill="#fff"
-            />
-            <defs>
-              <clipPath id="a">
-                <path fill="#fff" transform="translate(.95 .43)" d="M0 0h645.099v789.138H0z" />
-              </clipPath>
-            </defs>
           </svg>
-          <img :src="heroImage" alt="Man hero" class="object-cover min-w-[250px] h-72" />
+
+          <img
+            :src="heroImage"
+            alt="Man hero"
+            class="object-cover min-w-[250px] lg:min-w-[500px]"
+          />
         </div>
       </div>
     </section>
