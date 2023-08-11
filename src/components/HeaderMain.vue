@@ -1,6 +1,8 @@
 <script lang="ts" setup>
 import logo from '@/assets/images/chat-icon.png'
 import heroImage from '@/assets/images/hero-man.png'
+import heroStat1 from '@/assets/images/hero-stats-1.png'
+import heroStat2 from '@/assets/images/hero-stats-2.png'
 import { features, routeLinks } from '@/utilities/constants'
 const links = routeLinks
 </script>
@@ -20,10 +22,10 @@ const links = routeLinks
     <!-- HERO SECTION -->
     <section class="container grid grid-cols-2 py-24">
       <div class="max-w-2xl col-span-2md:col-span-1">
-        <h1 class="mb-5 font-medium text-7xl">
+        <h1 class="mb-8 text-5xl font-medium">
           Modern POS that makes running your business easier
         </h1>
-        <ul class="mb-5">
+        <ul class="mb-8">
           <li class="mb-1 flex-y-center gap-x-2" v-for="(feat, index) of features" :key="index">
             <span class="w-5 h-5 p-1 bg-white rounded-full flex-center">
               <svg class="w-4 h-4" viewBox="0 0 132.292 105.833" xmlns="http://www.w3.org/2000/svg">
@@ -66,7 +68,7 @@ const links = routeLinks
         <div class="relative">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="absolute right-0 -top-2 w-72"
+            class="absolute right-20 -top-20 w-72"
             viewBox="0 0 220.421 182.389"
           >
             <g id="shape" transform="translate(1.482)">
@@ -118,6 +120,8 @@ const links = routeLinks
             alt="Man hero"
             class="object-cover min-w-[250px] lg:min-w-[500px]"
           />
+          <img :src="heroStat1" class="absolute right-0 top-32 w-72" alt="Graphic" />
+          <img :src="heroStat2" class="absolute -left-36 bottom-10 w-72" alt="Graphic" />
         </div>
       </div>
     </section>
