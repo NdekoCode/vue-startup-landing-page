@@ -71,7 +71,7 @@ const links = routeLinks
             </p>
           </div>
           <div class="col-span-2 lg:col-span-1">
-            <div class="relative">
+            <div class="relative min-w-max">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="absolute top-0 -right-1 xl:right-20 lg:right-0 lg:-top-20 w-72"
