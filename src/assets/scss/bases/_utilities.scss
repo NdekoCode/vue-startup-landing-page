@@ -39,3 +39,11 @@
         @apply bg-blue-800
     }
 }
+
+.container {
+    @apply px-3;
+
+    @screen lg {
+        @apply px-0;
+    }
+}

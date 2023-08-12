@@ -23,11 +23,11 @@ const links = routeLinks
         </nav>
         <!-- HERO SECTION -->
         <section class="grid grid-cols-2 py-24">
-          <div class="max-w-2xl col-span-2md:col-span-1">
-            <h1 class="mb-8 text-5xl font-medium">
+          <div class="max-w-full col-span-2 mb-10 lg:mb-0 lg:max-w-3xl lg:col-span-1">
+            <h1 class="mb-10 font-medium text-7xl">
               Modern POS that makes running your business easier
             </h1>
-            <ul class="mb-8">
+            <ul class="mb-10">
               <li class="mb-1 flex-y-center gap-x-2" v-for="(feat, index) of features" :key="index">
                 <span class="w-5 h-5 p-1 bg-white rounded-full flex-center">
                   <svg
@@ -70,11 +70,11 @@ const links = routeLinks
               ><a href="#" class="text-gray-700 underline">Log In now</a>
             </p>
           </div>
-          <div class="col-span-2 md:col-span-1">
+          <div class="col-span-2 lg:col-span-1">
             <div class="relative">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="absolute right-20 -top-20 w-72"
+                class="absolute top-0 -right-1 xl:right-20 lg:right-0 lg:-top-20 w-72"
                 viewBox="0 0 220.421 182.389"
               >
                 <g id="shape" transform="translate(1.482)">
@@ -124,10 +124,18 @@ const links = routeLinks
               <img
                 :src="heroImage"
                 alt="Man hero"
-                class="object-cover min-w-[250px] lg:min-w-[500px]"
+                class="object-cover w-full min-w-[250px] md:w-4/5 max-h-[550px] md:min-w-[350px] rounded-lg lg:min-w-[500px]"
               />
-              <img :src="heroStat1" class="absolute right-0 top-32 w-72" alt="Graphic" />
-              <img :src="heroStat2" class="absolute -left-36 bottom-10 w-72" alt="Graphic" />
+              <img
+                :src="heroStat1"
+                class="absolute -right-4 lg:right-0 top-28 w-52"
+                alt="Graphic"
+              />
+              <img
+                :src="heroStat2"
+                class="absolute -left-6 lg:-left-32 bottom-10 w-52"
+                alt="Graphic"
+              />
             </div>
           </div>
         </section>
@@ -136,9 +144,9 @@ const links = routeLinks
     <!-- Features -->
     <section class="py-4 bg-white">
       <div class="container flex-between-center">
-        <ul class="w-full gap-5 justify-evenly flex-y-center">
+        <ul class="flex-wrap w-full gap-5 px-3 lg:flex-nowrap lg:justify-evenly flex-y-center">
           <li class="gap-4 flex-center">
-            <button class="p-4 bg-black rounded-full flex-center">
+            <span class="inline-block p-4 bg-black rounded-full flex-center">
               <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.999 30">
                 <g id="icon" transform="translate(0 0)">
                   <path
@@ -155,14 +163,14 @@ const links = routeLinks
                   />
                 </g>
               </svg>
-            </button>
+            </span>
             <p>
               Developed with the highest care. <br />
               Always updated.
             </p>
           </li>
           <li class="gap-4 flex-center">
-            <button class="p-4 bg-black rounded-full flex-center">
+            <span class="inline-block p-4 bg-black rounded-full flex-center">
               <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.2 30">
                 <g id="icon" transform="translate(0)">
                   <path
@@ -179,14 +187,14 @@ const links = routeLinks
                   />
                 </g>
               </svg>
-            </button>
+            </span>
             <p>
               Get free goodies from all over <br />
               the world after purchase
             </p>
           </li>
           <li class="gap-4 flex-center">
-            <button class="p-4 bg-black rounded-full flex-center">
+            <span class="inline-block p-4 bg-black rounded-full flex-center">
               <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.7 30.5">
                 <g id="icon" transform="translate(1.25 1.25)">
                   <path
@@ -208,7 +216,7 @@ const links = routeLinks
                   />
                 </g>
               </svg>
-            </button>
+            </span>
             <p>
               Save up to 10% of every <br />
               purchase you made
