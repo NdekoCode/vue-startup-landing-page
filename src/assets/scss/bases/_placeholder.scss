@@ -1,0 +1,48 @@
+%flex {
+    @apply flex;
+}
+
+%flex-col {
+    @extend %flex;
+    @apply flex-col;
+}
+
+%flex-x-center {
+    @extend %flex;
+    @apply justify-center;
+}
+
+%flex-y-center {
+    @extend %flex;
+    @apply items-center;
+}
+
+
+%flex-col-x-center {
+    @apply flex flex-col items-center;
+}
+
+%flex-col-y-center {
+    @extend %flex-col;
+    @apply justify-center;
+}
+
+%flex-center {
+    @extend %flex;
+    @apply items-center justify-center;
+}
+
+%flex-col-center {
+    @extend %flex-col;
+    @apply items-center justify-center;
+}
+
+%flex-between {
+    @extend %flex;
+    @apply justify-between
+}
+
+%flex-between-center {
+    @extend %flex-between;
+    @apply items-center;
+}

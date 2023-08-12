@@ -1,0 +1,49 @@
+.flex-y-center {
+    @extend %flex-y-center;
+}
+
+.flex-x-center {
+    @extend %flex-x-center;
+}
+
+.flex-col-y-center {
+    @extend %flex-col-y-center;
+}
+
+.flex-col-x-center {
+    @extend %flex-col-x-center;
+}
+
+
+.flex-between {
+    @extend %flex-between;
+}
+
+.flex-between-center {
+    @extend %flex-between;
+    @apply items-center;
+}
+
+.flex-col-center {
+    @extend %flex-col-center;
+}
+
+.flex-center {
+    @extend %flex-center;
+}
+
+.btn-primary {
+    @apply px-5 py-3 text-white transition-colors duration-200 bg-blue-700 rounded;
+
+    &:hover {
+        @apply bg-blue-800
+    }
+}
+
+.container {
+    @apply px-3;
+
+    @screen lg {
+        @apply px-0;
+    }
+}
