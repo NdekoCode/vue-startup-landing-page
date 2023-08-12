@@ -142,7 +142,7 @@ const links = routeLinks
       </div>
     </div>
     <!-- Features -->
-    <section class="py-4 bg-white">
+    <section class="py-10 bg-white">
       <div class="container flex-between-center">
         <ul class="flex-wrap w-full gap-5 px-3 lg:flex-nowrap lg:justify-evenly flex-y-center">
           <li class="gap-4 flex-center">

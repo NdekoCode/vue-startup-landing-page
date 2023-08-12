@@ -26,3 +26,7 @@ export const features: string[] = [
   'Manage cost saving & payments method',
   'Analysis inventory and online sales report'
 ]
+export const paymentMethods: string[] = [
+  'Accept any method of payment',
+  'Apply discounts and issue refunds'
+]
