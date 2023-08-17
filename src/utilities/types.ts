@@ -16,3 +16,7 @@ export interface IPricing {
   description: string
   including: string[]
 }
+export interface IFooter {
+  title: string
+  items: string[]
+}
