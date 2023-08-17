@@ -1,5 +1,7 @@
-import type { routeLink } from './types'
+import type { ITestimonial, routeLink } from './types'
 
+import testimonialMan from '@/assets/images/testimonial-man.png'
+import testimonialWoman from '@/assets/images/testimonial-woman.png'
 export const routeLinks: routeLink[] = [
   {
     name: 'Demo',
@@ -34,4 +36,18 @@ export const paymentMethods: string[] = [
 export const pricingMethods: string[] = [
   'Run layout program to reward customers.',
   'Keep notes on valuable customer preferences'
+]
+export const testimonialsData: ITestimonial[] = [
+  {
+    content: '"This is a the best course for React! Highly Recommened"',
+    image: testimonialMan,
+    userName: 'Dianne Russel',
+    post: 'Founder, Extends Sales'
+  },
+  {
+    content: '"This is a the best course for React! Highly Recommened"',
+    image: testimonialWoman,
+    userName: 'Dianne Russel',
+    post: 'Founder, Extends Sales'
+  }
 ]
