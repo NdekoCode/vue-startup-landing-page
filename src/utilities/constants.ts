@@ -80,7 +80,7 @@ export const pricingData: IPricing[] = [
 
   {
     type: 'Enterprise',
-    price: '199',
+    price: '399',
     isRecommended: false,
     textButton: 'Get Started',
     description:
