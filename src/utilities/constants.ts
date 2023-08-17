@@ -1,4 +1,4 @@
-import type { IPricing, ITestimonial, routeLink } from './types'
+import type { IFooter, IPricing, ITestimonial, routeLink } from './types'
 
 import testimonialMan from '@/assets/images/testimonial-man.png'
 import testimonialWoman from '@/assets/images/testimonial-woman.png'
@@ -93,5 +93,23 @@ export const pricingData: IPricing[] = [
       'Future Updates',
       'Recommandation'
     ]
+  }
+]
+export const footerData: IFooter[] = [
+  {
+    title: 'Company',
+    items: ['About', 'Features', 'Works', 'Career']
+  },
+  {
+    title: 'Help',
+    items: ['Customer Support', 'Delivery Details', 'Terms & Conditions', 'Privacy Policy']
+  },
+  {
+    title: 'Resources',
+    items: ['Free eBooks', 'Development Tutorial', 'How to - Blog', 'Youtube Playlist']
+  },
+  {
+    title: 'Links',
+    items: ['Free eBooks', 'Development Tutorial', 'How to - Blog', 'Youtube Playlist']
   }
 ]
