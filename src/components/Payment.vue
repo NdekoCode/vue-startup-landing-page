@@ -34,6 +34,9 @@ import { paymentMethods } from '@/utilities/constants'
               ><span>{{ payment }}</span>
             </li>
           </ul>
+          <a href="#" class="inline-block text-sm text-gray-600 hover:underline"
+            >Make your first Sale</a
+          >
         </div>
       </div>
 
