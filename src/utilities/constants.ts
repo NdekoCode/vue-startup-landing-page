@@ -30,3 +30,8 @@ export const paymentMethods: string[] = [
   'Accept any method of payment',
   'Apply discounts and issue refunds'
 ]
+
+export const pricingMethods: string[] = [
+  'Run layout program to reward customers.',
+  'Keep notes on valuable customer preferences'
+]

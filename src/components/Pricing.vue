@@ -1,6 +1,4 @@
-<script setup lang="ts"></script>
+<script lang="ts" setup></script>
 <template>
-  <section>Pricing</section>
+  <section class="py-20 bg-white">Pricing</section>
 </template>
-
-<style scoped></style>
