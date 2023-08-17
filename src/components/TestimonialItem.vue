@@ -30,7 +30,7 @@ const { testimonial } = defineProps({
         class="max-w-sm w-full rounded-md object-cover min-h-[230px]"
       />
     </div>
-    <p class="text-xs text-gray-600 flex-between-center">
+    <p class="text-sm text-gray-600 flex-between-center">
       <span>{{ testimonial.userName }}</span>
       <span>{{ testimonial.post }}</span>
     </p>

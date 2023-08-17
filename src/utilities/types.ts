@@ -8,3 +8,11 @@ export interface ITestimonial {
   userName: string
   post: string
 }
+export interface IPricing {
+  type: string
+  price: string | number
+  isRecommended: boolean
+  textButton: string
+  description: string
+  including: string[]
+}
